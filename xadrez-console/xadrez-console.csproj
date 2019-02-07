@@ -45,6 +45,20 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tabuleiro\Cor.cs" />
+    <Compile Include="tabuleiro\Peca.cs" />
+    <Compile Include="tabuleiro\Posicao.cs" />
+    <Compile Include="tabuleiro\Tabuleiro.cs" />
+    <Compile Include="tabuleiro\TabuleiroException.cs" />
+    <Compile Include="Tela.cs" />
+    <Compile Include="xadrezJogo\Bispo.cs" />
+    <Compile Include="xadrezJogo\Cavalo.cs" />
+    <Compile Include="xadrezJogo\Dama.cs" />
+    <Compile Include="xadrezJogo\PartidaDeXadrez.cs" />
+    <Compile Include="xadrezJogo\Peao.cs" />
+    <Compile Include="xadrezJogo\PosicaoXadrez.cs" />
+    <Compile Include="xadrezJogo\Torre.cs" />
+    <Compile Include="xadrezJogo\Rei.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
